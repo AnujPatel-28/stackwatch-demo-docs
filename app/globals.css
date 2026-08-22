@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root { --ink: #15202b; --line: #e5e9ed; --blue: #2864dc; }
+* { box-sizing: border-box; }
+body { margin: 0; color: var(--ink); background: #fbfcfd; font-family: Arial, Helvetica, sans-serif; }
+.doc-page h2 { margin-top: 2.7rem; margin-bottom: .75rem; font-size: 1.35rem; }
+.doc-page h3 { margin-top: 1.8rem; margin-bottom: .55rem; font-size: 1rem; }
+.doc-page p { max-width: 720px; line-height: 1.75; color: #536270; }
+.doc-page a { color: var(--blue); text-decoration: none; }
+.doc-section { border-top: 1px solid var(--line); padding-top: 1.45rem; margin-top: 2.5rem; }
+.code-block { overflow-x: auto; border: 1px solid #263446; border-radius: 10px; background: #182332; color: #e8eef7; padding: 1rem 1.15rem; font: 13px/1.7 ui-monospace, monospace; }
+.method-badge { border-radius: 5px; padding: 4px 7px; font: 700 11px/1 ui-monospace, monospace; }
+.sidebar-link { display: block; border-left: 2px solid transparent; color: #71808d; font-size: 14px; padding: 8px 12px; }
+.sidebar-link:hover, .sidebar-link.active { border-left-color: var(--blue); color: var(--ink); background: #f1f5ff; }
