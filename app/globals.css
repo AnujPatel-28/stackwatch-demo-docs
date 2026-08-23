@@ -8,7 +8,7 @@ body { margin: 0; color: var(--ink); background: #fbfcfd; font-family: Arial, He
 .documentation-shell h3 { margin-top: 1.8rem; margin-bottom: .55rem; font-size: 1rem; }
 .documentation-shell p { max-width: 720px; line-height: 1.75; color: #536270; }
 .documentation-shell a { color: var(--blue); text-decoration: none; }
-.content-block { border-top: 1px solid var(--line); padding-top: 1.45rem; margin-top: 2.5rem; }
+.content-block, .doc-panel { border-top: 1px solid var(--line); padding-top: 1.45rem; margin-top: 2.5rem; }
 .page-title { display: block; }
 .code-block { overflow-x: auto; border: 1px solid #263446; border-radius: 10px; background: #182332; color: #e8eef7; padding: 1rem 1.15rem; font: 13px/1.7 ui-monospace, monospace; }
 .method-badge { border-radius: 5px; padding: 4px 7px; font: 700 11px/1 ui-monospace, monospace; }
